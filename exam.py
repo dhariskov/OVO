@@ -112,14 +112,14 @@ def prominence(string, words=5):
     return prom_dict
 
 
-# print(words_counter(string))
-# print(sentences_count(string))
-# print(longest_word_length(string))
-# print(popular_words(string))
-# print(percentage_of_words_counted_once(string))
-# print(avg_words_per_sentence(string))
-# print(three_two_word_phrases(string))
-# print(prominence(string))
+print(words_counter(string))
+print(sentences_count(string))
+print(longest_word_length(string))
+print(popular_words(string))
+print(percentage_of_words_counted_once(string))
+print(avg_words_per_sentence(string))
+print(three_two_word_phrases(string))
+print(prominence(string))
 
 
 class TestingWordsCounter(unittest.TestCase):
